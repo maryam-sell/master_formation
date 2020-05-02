@@ -1,0 +1,35 @@
+<div class="container col-lg-6">
+  <h1 class="text-center">Modifier la formation</h1>
+  <div class="card">
+    <div class="card-body">
+      <form #f="ngForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="formationTitle">Titre de la formation :</label>
+          <input type="text" class="form-control" id="formationTitle" name="formationTitle" [(ngModel)]="formationVar.formationTitle"  
+            placeholder="Enter Formation Title" />
+        </div>
+        <div class="form-group">
+          <label for="objectifs">Objectifs :</label>
+          <input type="text" id="objectifs"  class="form-control" name="objectifs" [(ngModel)]="formationVar.objectifs"
+          placeholder="Enter Objectifs" />
+        </div>
+        <div class="form-group">
+          <label for="preRequis">Prerequis :</label>
+          <input type="text" id="preRequis"  class="form-control" name="preRequis" [(ngModel)]="formationVar.preRequis"
+          placeholder="Enter Prerequis" />
+        </div>
+        <div class="form-group">
+          <label for="etabli">Etablissement :</label>
+          <input type="text" id="etabli"  class="form-control" name="etabli" [(ngModel)]="formationVar.etabli"
+          placeholder="Enter Etablissement" />
+        </div>
+        <div class="form-group">
+          <label for="nombreMax">Nombre de Place :</label>
+          <input type="number" min="0" step="1" id="nombreMax"  class="form-control" name="nombreMax" [(ngModel)]="formationVar.nombreMax"
+          placeholder="Enter Nombre de Place" />
+        </div>
+        <button>Modifier</button>
+      </form>
+    </div>
+  </div>
+</div>
