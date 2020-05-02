@@ -1,0 +1,22 @@
+2020-04-18 14:32:38,158 ERROR [http-nio-8080-exec-1] - com.master.formation.service.impl.FormateurServiceImpl.getAll 93 - FormateurServiceImpl-> getAll error: No default constructor for entity:  : com.master.formation.entity.Formateur; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.master.formation.entity.Formateur
+2020-04-18 14:32:55,485 ERROR [http-nio-8080-exec-2] - com.master.formation.service.impl.FormateurServiceImpl.getAll 93 - FormateurServiceImpl-> getAll error: No default constructor for entity:  : com.master.formation.entity.Formateur; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.master.formation.entity.Formateur
+2020-04-18 14:33:53,737 ERROR [http-nio-8080-exec-5] - com.master.formation.service.impl.FormateurServiceImpl.getAll 93 - FormateurServiceImpl-> getAll error: No default constructor for entity:  : com.master.formation.entity.Formateur; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.master.formation.entity.Formateur
+2020-04-18 14:35:38,928 ERROR [http-nio-8080-exec-6] - com.master.formation.service.impl.FormateurServiceImpl.getById 70 - FormateurServiceImpl-> getById error: No default constructor for entity:  : com.master.formation.entity.Formateur; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.master.formation.entity.Formateur
+2020-04-18 14:52:51,297 ERROR [http-nio-8080-exec-2] - com.master.formation.service.impl.FormateurServiceImpl.create 33 - FormateurServiceImpl-> create error: Validation failed for classes [com.master.formation.entity.Formateur] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='ne peut pas être vide', propertyPath=password, rootBeanClass=class com.master.formation.entity.Formateur, messageTemplate='{javax.validation.constraints.NotBlank.message}'}
+]
+2020-04-21 13:53:04,872 ERROR [http-nio-8080-exec-1] - com.master.formation.service.impl.FormateurServiceImpl.getAll 94 - BénéficiaireServiceImpl-> getAll error: No default constructor for entity:  : com.master.formation.entity.Bénéficiaire; nested exception is org.hibernate.InstantiationException: No default constructor for entity:  : com.master.formation.entity.Bénéficiaire
+2020-04-21 13:56:24,110 ERROR [http-nio-8080-exec-3] - com.master.formation.service.impl.FormateurServiceImpl.create 33 - BénéficiaireServiceImpl-> create error: Validation failed for classes [com.master.formation.entity.Bénéficiaire] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='ne peut pas être vide', propertyPath=phone, rootBeanClass=class com.master.formation.entity.Bénéficiaire, messageTemplate='{javax.validation.constraints.NotBlank.message}'}
+]
+2020-04-21 13:57:15,545 ERROR [http-nio-8080-exec-4] - com.master.formation.service.impl.FormateurServiceImpl.create 33 - BénéficiaireServiceImpl-> create error: Validation failed for classes [com.master.formation.entity.Bénéficiaire] during persist time for groups [javax.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='ne peut pas être vide', propertyPath=phone, rootBeanClass=class com.master.formation.entity.Bénéficiaire, messageTemplate='{javax.validation.constraints.NotBlank.message}'}
+]
+2020-04-21 14:06:22,230 ERROR [http-nio-8080-exec-3] - com.master.formation.service.impl.FormateurServiceImpl.getAll 88 - CommentaireServiceImpl-> getAll error: java.lang.reflect.InvocationTargetException
+2020-04-21 14:09:43,483 ERROR [http-nio-8080-exec-9] - com.master.formation.service.impl.FormateurServiceImpl.getAll 95 - FormationServiceImpl-> getAll error: java.lang.reflect.InvocationTargetException
+2020-04-23 03:15:09,627 ERROR [http-nio-8080-exec-8] - com.master.formation.service.impl.FormateurServiceImpl.getAll 95 - FormationServiceImpl-> getAll error: java.lang.reflect.InvocationTargetException
+2020-04-23 03:15:41,082 ERROR [http-nio-8080-exec-9] - com.master.formation.service.impl.FormateurServiceImpl.getAll 95 - FormationServiceImpl-> getAll error: java.lang.reflect.InvocationTargetException
+2020-04-23 03:20:53,391 ERROR [http-nio-8080-exec-3] - com.master.formation.service.impl.FormateurServiceImpl.getAll 95 - FormationServiceImpl-> getAll error: java.lang.reflect.InvocationTargetException
